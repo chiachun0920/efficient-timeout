@@ -1,0 +1,34 @@
+{
+  "name": "efficient-timeout",
+  "version": "0.0.0",
+  "description": "schedule a timeout work by efficiently using setTimeout",
+  "main": "dist/efficient-timeout.js",
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "./node_modules/.bin/babel src --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/chiachun0920/efficient-timeout/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiachun0920/efficient-timeout.git"
+  },
+  "keywords": [
+    "setTimeout",
+    "timer",
+    "efficient"
+  ],
+  "author": "chiachun0920@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.4.2",
+    "jest": "^24.4.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
